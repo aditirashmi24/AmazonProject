@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Amazon_Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Search Item(failed)">
+    <classes>
+      <class name="org.project.Amazon_Project.uitests.SearchItemandFilter">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="SearchItemandApplyFilter"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.project.Amazon_Project.uitests.SearchItemandFilter -->
+    </classes>
+  </test> <!-- Search Item(failed) -->
+</suite> <!-- Failed suite [Amazon_Project] -->
